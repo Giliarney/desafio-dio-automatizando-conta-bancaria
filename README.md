@@ -1,4 +1,4 @@
-# desafio-dio-automatizando-conta-bancaria
+![image](https://github.com/Giliarney/desafio-dio-automatizando-conta-bancaria/assets/168928847/f61d5bab-3c18-4b1a-b64b-1d78c3eaa6fe)# desafio-dio-automatizando-conta-bancaria
 ## Python
 
 ## Sintaxe - Desafio Conta Bnacária
@@ -12,30 +12,24 @@ Vamos exercitar todo o conteúdo apresentado no módulo de Dominando Python e Su
 
 Precisamos deixar nosso código mais modularizado, para isso vamos criar funções para as operações existentes: sacar, depositar e visualizar histórico. Além disso, para a versão 2 do nosso sistema precisamos criar duas novas funções: criar usuário (cliente do banco) e criar conta corrente (vincular com usuário).
 
+## Separação em funções
 
-1. Crie o projeto `ContaBanco` que receberá dados via terminal contendo as características de conta em banco conforme atributos abaixo:
+Devemos criar funções para todas as operações do sistema. Para exercitar tudo o que aprendemos neste módulo, cada função vai ter uma regra na passagem de argumentos. O retorno e a forma como serão chamadas, pode ser definida por você da forma que achar melhor.
 
-###### Revise sobre regras de declaração de variáveis
+## 1 - Criar usuário (cliente)
 
-| Atributo  | Tipo     | Exemplo   
-| --------- | ---------| ------- 
-| Numero    | Inteiro  | 1021 
-| Agencia   | Texto    | 067-8
-| Nome Cliente | Texto    | MARIO ANDRADE
-| Saldo | Decimal |237.48
+O programa deve armazenar os usuários em uma lista, um usuário é composto por: nome, data de nascimento, cpf e endereço. O endereço é uma string com o formato: logradouro, nro - bairro - cidade/sigla estado. Deve ser armazenado somente os números do CPF. Não podemos cadastrar 2 usuários com o mesmo CPF.
 
-2. Permita que os dados sejam inseridos via terminal sendo que o usuário receberá a mensagem de qual informação será solicitada, exemplo:
 
-* Programa: "Por favor, digite o número da Agência !"
-* Usuário: 1021 *(depois ENTER para o próximo campo)* 
 
-###### Revise sobre concatenação e classe String com método concat
 
-3. Depois de todas as informações terem sido inseridas, o sistema deverá exibir a seguinte mensagem:
+![image](https://github.com/Giliarney/desafio-dio-automatizando-conta-bancaria/assets/168928847/cc11a4db-3454-436c-9281-0aace5eef5b6)
+![image](https://github.com/Giliarney/desafio-dio-automatizando-conta-bancaria/assets/168928847/2c70cd58-56e9-4571-8253-8da5ebdcfa67)
+![image](https://github.com/Giliarney/desafio-dio-automatizando-conta-bancaria/assets/168928847/6f23a6a9-f37a-4d26-abb4-e181b6ba8708)
+![image](https://github.com/Giliarney/desafio-dio-automatizando-conta-bancaria/assets/168928847/7999e1d8-82f3-436f-95ce-71d28dfaa12b)
+![image](https://github.com/Giliarney/desafio-dio-automatizando-conta-bancaria/assets/168928847/ef51b8cd-fedb-4a28-9cb9-9b3f110dd59a)
 
-*"Olá [Nome Cliente], obrigado por criar uma conta em nosso banco, sua agência é [Agencia], conta [Numero] e seu saldo [Saldo] já está disponível para saque".*
 
-Os campos em [ ] devem ser alterados pelas informações que forem inseridas pelos usuários.
 
 
 
