@@ -186,7 +186,6 @@ def main():
         else:
             numero_da_operacao == 7
             print("Programa finalizado com sucesso!")
-            print(f"Até a próxima{usuarios_cadastrados["nome"]}")
             break
 
 # =========================== Acima as Funções ==================================
