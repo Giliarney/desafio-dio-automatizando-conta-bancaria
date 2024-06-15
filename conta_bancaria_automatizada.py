@@ -42,7 +42,6 @@ def validar_entrada_data_nascimento(valor_maximo):
         except ValueError:
             print("Entrada inválida, por favor verifique e tente novamente.")
 
-
 def menu_pagina_inicial():
     print('''==============Seja bem-vindo ao banco DIO!==============\n')
     Menu:
