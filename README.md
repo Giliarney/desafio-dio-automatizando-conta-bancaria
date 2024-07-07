@@ -1,4 +1,4 @@
-# desafio-dio-automatizando-conta-bancaria
+# Desafio DIO Automatizando Conta Bancária
 ## Python
 
 ## Sintaxe - Desafio Conta Bnacária
